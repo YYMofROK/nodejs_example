@@ -1,6 +1,5 @@
+// 티몬 송장 전송 자동화 샘플
 
-// node tmon_001_send_delivery_doc.js "{\"sellerId\":\"YmVzdG1k\",\"sellerPw\":\"YnRzbWQ5NzA3IQ==\",\"ordNo\":\"MjczMTA2MTc5NA==\",\"dlvNo\":\"Njk1OTg1MDA2\",\"prdNo\":\"NDM5NTMzMDQxNA==\",\"companyName\":\"Q0rrjIDtlZzthrXsmrQ=\",\"invoiceNo\":\"NjM0NzQxOTk0NzAz\"}"
-// node tmon_001_send_delivery_doc.js "{\"sellerId\":\"b25lc251Zw==\",\"sellerPw\":\"Z3VzMDQ2MnduMjAh\",\"ordNo\":\"Mjc2MTY5NDI3MA==\",\"dlvNo\":\"NzIwMjUxNTIy\",\"prdNo\":\"NDc0ODYwMzM3NA==\",\"companyName\":\"66Gc7KCg7YOd67Cw\",\"invoiceNo\":\"OTg1ODgzMTIzODQ=\"}"
 const fs		= require("fs");
 const puppeteer = require("C:\\Users\\yym\\node_modules\\puppeteer");
 const cheerio   = require("C:\\Users\\yym\\node_modules\\cheerio");
